@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/desctop.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/modile.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo"></div>
+        <input type="checkbox" class="burger" id="burger" />
+        <label for="burger" class="burger__label">
+          <img src="img/menu.jpg" alt="I" class="burger__menu" />
+          <img src="img/close.jpg" alt="I" class="burger__close" />
+        </label>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#hero">Про мене</a></li>
+            <li><a href="#main">Робота</a></li>
+            <li><a href="#footer">Контакти</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="background-elements"></div>
+      <main class="hero">
+        <div class="hero-content">
+          <p>Привіт, я</p>
+          <h1>Павло Макушак</h1>
+          <h2><strong>Front-end Developer</strong></h2>
+          <div class="buttons">
+            <button class="btn hire">Hайми мене</button>
+            <button class="btn cv">Резюме</button>
+          </div>
+        </div>
+      </main>
+      <div class="about-container">
+        <div class="about-avatar">
+          <div class="avatar-circle">
+            <img src="img/pavlo.png" class="pavlo" />
+          </div>
+        </div>
+        <div class="about-content" id="hero">
+          <h2>Про мене</h2>
+          <p>
+            Привіт! Мене звати Макушак Павло я є front-end розробником .
+            Навчаюся у Школі комп’ютерної майстерності вже 2 роки. Я вмію
+            створювати адаптивні сайти та макети. Працював над проектами як в
+            команді так і самостійно Освоїв такі технології як html/css, та
+            почав досліджувати JavaScript. Мені найбільше подобається в цій
+            професії її актуальність та здобування навичок. Прагну щоб сайт був
+            зручний простий і стильний. Хочу розвиватись далі й працювати над
+            цікавими проєктами.
+          </p>
+        </div>
+      </div>
+      <h2 class="section-title"id="main">Мої остані роботи </h2>
+
+      <div class="work-container">
+        <div class="work-item">
+          <img
+            src="img/photo_5332503426619275645_w.jpg"
+            alt="Designs"
+            class="img__pr"
+          />
+          <div class="work-label">Шлях героя</div>
+        </div>
+        <div class="work-item">
+          <img src="img/if.png" class="img__pr" />
+          <div class="work-label">BEM методологія</div>
+        </div>
+        <div class="work-item">
+          <img src="img/photo_5332503426619275647_w.jpg" class="img__pr" />
+          <div class="work-label">Командна робота</div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-info">
+          <p class="project-featured">Поодинний проект</p>
+          <h3 class="project-title">Шлях героя</h3>
+          <p class="project-description">
+            Проект шлях до себе через шлях героя, один з недавніх моїх проектів,
+            в цьому сайті розповідається про мої улюблені фільми, хто такі герої
+            та в чому полягає їхній шлях
+          </p>
+          <div class="project-icons">
+            <a target="_blank" href="https://pavlomak14.github.io/sg_mak/">
+              <img src="img/github-icon.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-image">
+          <img src="img/photo_5332503426619275645_w.jpg" />
+        </div>
+      </div>
+      <div class="project-section">
+        <div class="project-image">
+          <img src="img/photo_5332503426619275647_w.jpg" />
+        </div>
+
+        <div class="project-content">
+          <p class="paragraph">Командний проект</p>
+          <h3>Школа чудес</h3>
+          <p class="description">
+            Командний проект на тему Школа чудес, він оформлений в розовому
+            кольорі та має фантастично-загадкові зображення, тут можна дізнатися
+            про школу чудес та мистецтво часу і простору
+          </p>
+          <div class="icons">
+            <a target="_blank" href="https://pavlomak14.github.io/pavlo_k/">
+              <img src="img/github-icon.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hard__skill">
+        <div class="skills-section">
+          <h2>My Hard Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <div class="label">
+                <span>HTML</span>
+                <span class="percent">95%</span>
+              </div>
+              <div class="bar">
+                <div class="fill fill-html"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="label">
+                <span>JS</span>
+                <span class="percent">5%</span>
+              </div>
+              <div class="bar">
+                <div class="fill fill-js"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="label">
+                <span>CSS</span>
+                <span class="percent">95%</span>
+              </div>
+              <div class="bar">
+                <div class="fill fill-css"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="label">
+                <span>FIGMA</span>
+                <span class="percent">50%</span>
+              </div>
+              <div class="bar">
+                <div class="fill fill-figma"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <span>Teamwork</span>
+        <span>Empathy</span>
+        <span>Punctuality</span>
+        <span>Teamwork</span>
+        <span>Empathy</span>
+        <span>Punctuality</span>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-info">
+          <h3>Зв'яжіться</h3>
+          <p>
+            Зв'яжіться з нами. Не соромтеся телефонувати, надсилати мені
+            електронного листа або просто заповнювати форму запиту.
+          </p>
+          <div>+380 730 995 945</div>
+          <div>makushakpavlo@gmail.com</div>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+          <h3>Send me a message</h3>
+          <input type="text" name="name" placeholder="ім'я" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Адреса"
+            required
+          />
+          <input type="text" name="subject" placeholder="Опис" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Твоє повідомлення"
+            required
+          ></textarea>
+          <button type="submit">Надіслати повідомлення</button>
+        </form>
+      </div>
+      <footer class="footer"id="footer">
+        <div class="footer-content">
+          <img src="img/Illustration.png" alt="Planet" class="planet-img" />
+
+          <div class="nav-menu">
+            <a href="#"><i class="fa fa-home"></i> Головна</a>
+            <a href="#hero"><i class="fa fa-user"></i> Про мене</a>
+            <a href="#main"><i class="fa fa-briefcase"></i> Роботи</a>
+            <a href="#footer"><i class="fa fa-phone"></i> Контакти</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

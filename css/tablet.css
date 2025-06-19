@@ -1,0 +1,149 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+  
+
+  .nav-links ul {
+    display: flex;
+   
+  }
+
+  .burger__label {
+    display: none;
+  }
+
+
+  .hero-content {
+    padding: 60px 0;
+    text-align: left;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .hero-content h2 {
+    font-size: 26px;
+  }
+
+  .buttons {
+    display: flex;
+    
+    margin-top: 25px;
+  }
+
+
+  .about-container {
+    display: flex;
+    
+    align-items: center;
+    
+    margin-top: 50px;
+  }
+
+  .about-avatar {
+    flex: 1;
+    text-align: center;
+  }
+
+  .about-content {
+    flex: 2;
+  }
+  .work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  
+  .project-container,
+  .project-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .container{
+    margin:0 auto;
+  }
+
+  .project-info,
+  .project-content {
+    flex: 1;
+  }
+
+  .project-image {
+    flex: 1;
+  }
+
+  .project-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .skills-section {
+    margin-top: 60px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 60px;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 1;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+ 
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .planet-img {
+    max-width: 120px;
+  }
+}

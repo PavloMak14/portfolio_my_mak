@@ -1,0 +1,32 @@
+@media screen and (max-width:767px){
+    .avatar-circle{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .work-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .project-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+       
+      
+    }
+}
+
+  
